@@ -1,0 +1,82 @@
+:root {
+    --text-color-primary :#7A7A7A;
+    --responsive-links-hover: #6EC1E4;
+    --bg-color-button-ScrollTo : #0693e3;
+    --yellow : #F3C331;
+    --orange: #FB8B24;
+    --box-product : #141414
+    --fontSize-primay : 55px;
+    --fontSize-secondary : 45px;
+    --fontSize-tercer : 48px;
+    --fontSize-Link : 16px ;
+    --Typographie-fontFamily-primary : "Roboto";
+    --Typographie-fontFamily-secondary : "Roboto Slab";
+    --background-input:  #393737;
+    --background-color:  rgb(34, 30, 29);
+
+
+}
+
+h1{
+    margin-block: 80px;
+    text-align: center;
+}
+label{
+    color: white;
+    font-size: 17.5px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 20px;
+}
+.profil{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+input,textarea{
+    width: 100%;
+    padding: 20px 30px 20px 10px;
+    outline: none;
+    border-radius: 10px;
+    border:1px solid var(--yellow);
+    background-color:var(--background-input);
+    color: white;
+    font-size: 14px;
+
+}
+
+form{
+   margin: auto; 
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 70px;
+    
+}
+
+.print-image{
+    border-radius: 10px;
+    width: 380px;
+    height: 300px;
+    background-color: var(--background-input);
+}
+.submit{
+    margin: auto;
+}
+.btn-image{
+    background-color: var(--background-color);
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+
+.btn-submit{
+    margin-top: 5px;
+    background-color: var(--background-color);
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+:root {
+    --text-color-primary :#7A7A7A;
+    --responsive-links-hover: #6EC1E4;
+    --bg-color-button-ScrollTo : #0693e3;
+    --yellow : #F3C331;
+    --orange: #FB8B24;
+    --box-product : #141414
+    --fontSize-primay : 55px;
+    --fontSize-secondary : 45px;
+    --fontSize-tercer : 48px;
+    --fontSize-Link : 16px ;
+    --Typographie-fontFamily-primary : "Roboto";
+    --Typographie-fontFamily-secondary : "Roboto Slab";
+
+}

@@ -1,0 +1,65 @@
+<%- include('Partiel/header.ejs') %>
+    <main>
+        <section class="admin">
+            <h1>Admin</h1>
+            <div class="profil">
+                <form action="" method="">
+                    <div>
+                        <label for="image">Selectionner uns image </label>
+                        <div class="print-image">
+
+                        </div>
+                        <button class="btn-image">select</button>
+
+                        <input type="file" name="image" id="image" class="input-file">
+                    </div>
+                  
+                    <div>
+                        <label for="name">Product name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div>
+                        <label for="kcal">Nombre de kcal</label>
+                        <input type="number" name="kcal" id="kcal">
+                    </div>
+                    <div>
+                        <label for="fat">Nombre de FAT</label>
+                        <input type="number" name="fat" id="fat">
+                    </div>
+                    <div>
+                        <label for="carb">Nombre de carb</label>
+                        <input type="number" name="carb" id="carb">
+                    </div>
+                    <div>
+                        <label for="prix">Prix du produit</label>
+                        <input type="number" name="prix" id="prix" placeholder="en euro">
+                    </div>
+                    <div>
+                        <label for="ingredient">List of ingredient</label>
+                        <textarea name="ingredient" id="ingredient" cols="30" rows="10"></textarea>
+                    </div>
+                   
+                    <div>
+                        <label for="description">Description</label>
+                        <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                    </div>
+                  
+                    
+                    <div class="submit">
+                        <input type="submit" value="soumettre" class="btn-submit">
+                    </div>
+
+
+                </form>
+            </div>
+        </section>
+    </main>
+    <script>
+       
+       const input = document.querySelector('.input-file')
+       const image_block = document.querySelector('.print-image')
+       const btn_image = document.querySelector('. btn-image')
+
+
+    </script>
+    <%- include('Partiel/footer.ejs') %>

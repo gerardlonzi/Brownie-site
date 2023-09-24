@@ -1,0 +1,111 @@
+
+ @import url('https://fonts.cdnfonts.com/css/lie-to-me');
+
+                
+:root {
+    --text-color-primary :#7A7A7A;
+    --responsive-links-hover: #6EC1E4;
+    --bg-color-button-ScrollTo : #0693e3;
+    --yellow : #F3C331;
+    --orange: #FB8B24;
+    --box-product : #141414
+    --fontSize-primay : 55px;
+    --fontSize-secondary : 45px;
+    --fontSize-tercer : 48px;
+    --fontSize-Link : 16px ;
+    --Typographie-fontFamily-primary : "Roboto";
+    --Typographie-fontFamily-secondary : "Roboto Slab";
+    --title-barner-color :rgba(255,255,255,0.72);
+    --background-color:  rgb(34, 30, 29);
+
+
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding-inline: 340px;
+    padding-block: 16px;
+    display: flex;
+    gap: 64px;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    background-image:url('/images/cashew-chocolate-brownies-in-calicut.webp') ;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+body{
+    background-color: var(--background-color);
+}
+.barner{
+    margin: auto;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.intro{
+    text-align: center;
+    padding-top: 60.5px;
+    padding-bottom: 225.33px;
+    width: 100%;
+}
+.intro div:nth-child(1){
+    position: relative;
+
+}
+ h1{
+    color:var(--title-barner-color) ;
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.intro div:nth-child(1) p{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    color: white;
+    font-size: 47.62px;
+    font-family: "Lie to Me", Sans-serif;
+    font-weight: 300;
+    margin: auto;
+    width: 100%;
+}
+
+.intro div:nth-child(2) p{
+    font-weight: lighter;
+    color: rgb(230, 230, 230);
+    font-size: 24px;
+    font-family: 'Montserrat',sans-serif;
+    margin-top: 250px;
+    letter-spacing: 1px;
+
+}
+.intro div:nth-child(2) a,.btn-readMore a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: '600';
+
+
+}
+.intro div:nth-child(2) > span ,.btn-readMore,.btn-image,.btn-submit{
+    display: inline-block;
+    border: 3px solid var(--orange);
+    padding: 11px 45px ;
+    margin-top: 50px;
+    border-radius: 25px;
+
+}
